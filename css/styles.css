@@ -1,0 +1,76 @@
+/* Color Palette
+#475F97
+#3C6E71
+#FFFFFF
+#D9D9D9
+#284B63
+*/
+
+/* Global styles 
+------------------------------------*/
+
+body {
+  margin: 0;
+  background-color: #FFFFFF;
+  color: #3C6E71;
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.6;
+}
+
+/* Main title and page sections */
+h1 {
+  background-color: #475F97;
+  color: #FFFFFF;
+  font-size: 150%;
+  font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #284B63;
+  font-size: 115%;
+  border-bottom: 2px solid #3C6E71;
+  padding-bottom: 6px;
+}
+
+li{
+    color: #284B63;
+    border-bottom: 2px solid #3C6E71;
+    padding-bottom: 6px;
+}
+/* Header & Footer 
+------------------------------------*/
+
+footer.socials {
+    background-color: #284B63;
+    color: #FFFFFF;
+    padding: 12px;
+    text-align: center;
+}
+
+
+/* Work Experience
+------------------------------------*/
+
+.work {
+    background-color: #D9D9D9;
+    margin: 12px;
+    max-width: 600px;
+    padding: 16px 20px;
+}
+
+/* Education
+------------------------------------*/
+
+.education {
+    background-color: #D9D9D9;
+    margin: 12px;
+    max-width: 600px;
+    padding: 16px 20px;
+}
