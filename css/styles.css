@@ -2,16 +2,32 @@
 #475F97
 #3C6E71
 #FFFFFF
+#1b212e
 #D9D9D9
 #284B63
+#5397c5
 */
 
 /* Global styles 
 ------------------------------------*/
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+
+.profile-image {
+  width: 300px;
+  border-radius: 50%;
+  border: 5px solid #475F97; 
+  display: block; 
+  margin: 10px;
+  float: left;
+}
 
 body {
-  margin: 0;
-  background-color: #FFFFFF;
+  background-color: #1b212e;
   color: #3C6E71;
   font-family: "Arimo", sans-serif;
   font-optical-sizing: auto;
@@ -24,17 +40,18 @@ body {
 h1 {
   background-color: #475F97;
   color: #FFFFFF;
+  margin: 0;
   font-size: 150%;
   font-family: "Comic Relief", system-ui;
   font-weight: 400;
   font-style: normal;
-  padding: 20px;
   text-align: center;
 }
 
 h2 {
-  color: #284B63;
+  color: #3C6E71;
   font-size: 115%;
+  margin: 0;
   border-bottom: 2px solid #3C6E71;
   padding-bottom: 6px;
 }
@@ -48,10 +65,14 @@ li{
 ------------------------------------*/
 
 footer.socials {
-    background-color: #284B63;
+    background-color: #20242e;
     color: #FFFFFF;
-    padding: 12px;
     text-align: center;
+}
+
+.contact-info a {
+    display: inline-block;
+    padding: 10px;
 }
 
 
@@ -62,7 +83,6 @@ footer.socials {
     background-color: #D9D9D9;
     margin: 12px;
     max-width: 600px;
-    padding: 16px 20px;
 }
 
 /* Education
@@ -72,5 +92,4 @@ footer.socials {
     background-color: #D9D9D9;
     margin: 12px;
     max-width: 600px;
-    padding: 16px 20px;
 }
